@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
     app:cardBackgroundColor="#FFFEFA"
     android:layout_marginTop="8dp"
     app:cardMaxElevation="10dp">
@@ -12,6 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:background="#BFDFE3"
         android:padding="10dp">
 
         <LinearLayout
@@ -43,22 +45,54 @@
 
 
         <TextView
-            android:id="@+id/titleTV"
+            android:id="@+id/studentIdTV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="Title"
+            android:text="Student Id"
             android:textSize="25sp">
 
         </TextView>
 
         <TextView
-            android:id="@+id/descriptionTV"
+            android:id="@+id/nameTV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:textColor="@color/black"
-            android:text="Description"
+            android:text="Name"
+            android:textSize="18sp">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/emailTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textSize="18sp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/subTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Subject"
+            android:textColor="@color/black"
+            android:textSize="18sp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/birthdayTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Date of Birth"
+            android:textColor="@color/black"
             android:textSize="18sp">
 
         </TextView>
